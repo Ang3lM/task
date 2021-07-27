@@ -19,7 +19,6 @@ class UserController {
 			email,
 			password,
 		});
-		console.log("argumentsssssssssssssssssssssssssssss");
 		return this.login(...arguments);
 	}
 }
