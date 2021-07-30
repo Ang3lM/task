@@ -25,7 +25,6 @@ class TaskController {
 		await project.tasks().save(task);
 		return task;
 
-
 	}
 	async destroy({auth,params}){
 		const user = await auth.getUser();

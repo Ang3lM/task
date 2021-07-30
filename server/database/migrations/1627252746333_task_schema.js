@@ -11,6 +11,7 @@ class TaskSchema extends Schema {
       table.string('description',255)
       table.boolean('completed')
       table.timestamps()
+
     })
   }
 
